@@ -3,16 +3,17 @@ import BingStatus from './BingStatus/BingStatus';
 import StockTrader from './StockTrader/StockTrader';
 import SamsungSmartThings from './SamsungSmartThings/SamsungSmartThings';
 
+
 import './App.css';
 
 function App() {
   return (
 
-    <div>
+    <body>
     <BingStatus/>
     <StockTrader/>   
     <SamsungSmartThings/>      
-     </div>
+     </body>
     
   );
 }
